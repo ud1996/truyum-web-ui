@@ -1,0 +1,12 @@
+/* include stylesheet for truYum */
+
+.foot{
+    position: fixed;
+    width:100%;
+    bottom: 0;
+    left:0;
+}
+
+.liclass{
+    display: inline;
+}

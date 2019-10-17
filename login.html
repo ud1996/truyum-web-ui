@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <a href="#" class="navbar-brand"><i class="material-icons">local_dining</i>truYum</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navdata">
             <span class="navbar-toggler-icon"></span>
@@ -40,26 +40,26 @@
                     <div class="card-header">
                         <h4>Login</h4>
                     </div>
-                    <form class="ml-2">
-                        <div class="form-group">
+                    <form class="ml-2" action="menu-item-list-admin.html">
+                        <div class="form-group mr-2">
                             <label for="userName">Username</label>
-                            <input type="text" class="form-control" placeholder="Enter UserName">
-                            <small class="text-danger">UserName is Required</small>
+                            <input type="text" class="form-control" placeholder="Enter UserName" id="userName" name="userName">
+                            
                         </div>
 
-                        <div class="form-group">
+                        <div class="form-group mr-2">
                             <label for="password">Password</label>
-                            <input type="password" class="form-control" placeholder="Password">
-                            <small class="text-danger">Password is Required</small>
+                            <input type="password" class="form-control" placeholder="Password" id="password" name="password">
+                            
                         </div>
                         <div class="row">
                             <div class="col-8">
-                                <button class="btn btn-danger ml-2 mb-2">Login</button>
+                                <input type="submit" class="btn btn-danger ml-2 mb-2" value="Login">
                             </div>
 
                             <div class="col-4">
                                 <small class="text-secondary">New here? </small>
-                                <a href="#">SignUp</a>
+                                <a href="signup.html">SignUp</a>
                             </div>
                         </div>
 
@@ -73,7 +73,7 @@
 
 
     <nav class="navbar navbar-expand-sm bg-danger navbar-dark foot">
-        <div class="ml-2 text-white">Copyright2019</div>
+        <div class="ml-2 text-white">Copyright 2019</div>
     </nav>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

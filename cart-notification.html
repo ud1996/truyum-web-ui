@@ -19,29 +19,29 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
-        <a href="#" class="navbar-brand"><i class="material-icons">local_dining</i>truYum</a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navdata">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="navbar-collapse collapse" id="navdata">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="menu-item-list.html" class="nav-link">Menu Items</a></li>
-                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-                <li class="nav-item"><a href="signup.html" class="nav-link">SignUp</a></li>
-            </ul>
-        </div>
-
-    </nav>
-
+        <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+                <a href="#" class="navbar-brand"><i class="material-icons">local_dining</i>truYum</a>
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navdata">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="navbar-collapse collapse" id="navdata">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a href="menu-item-list-customer.html" class="nav-link">Menu Items</a></li>
+                        <li class="nav-item"><a href="cart.html" class="nav-link">Cart</a></li>
+                        <li class="nav-item"><a href="login.html" class="nav-link"><i class="material-icons navbarCss">person</i>John</a></li>
+                        <li class="nav-item"><a href="menu-item-list.html" class="nav-link">LogOut</a></li>
+                    </ul>
+                </div>
+        
+            </nav>
     <div class="container">
         <div class="row justify-content-center">
-          
-            <div class="col-12 col-md-12 col-lg-6 mt-5">
+
+            <div class="col-12 col-md-12 col-lg-6 mt-5 mb-5">
                 <h4 class="ml-1">Cart</h4>
                 <ul class="list-group">
-                        <div class="alert alert-success">Cart Item deleted successfully</div>
+                    <div class="alert alert-success">Cart Item deleted successfully</div>
                     <li class="list-group-item text-secondary liclass">
                         <div class="row">
                             <div class="col-8">
@@ -49,12 +49,12 @@
                             </div>
                             <div class="col-2 float-right">
                                 <small class="text-secondary">129.00</small><br>
-                                <i class="material-icons">delete_forever</i>
+                                <a href="cart-notification.html"><i class="material-icons text-muted">delete_forever</i></a>
                             </div>
                         </div>
                     </li>
 
-                   
+
                     <li class="list-group-item  liclass">
                         <div class="row">
                             <div class="col-8">
@@ -73,7 +73,7 @@
     </div>
 
     <nav class="navbar navbar-expand-sm bg-danger navbar-dark foot">
-        <div class="ml-2 text-white">Copyright2019</div>
+        <div class="ml-2 text-white">Copyright 2019</div>
     </nav>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

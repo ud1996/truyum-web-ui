@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
         <a href="#" class="navbar-brand"><i class="material-icons">local_dining</i>truYum</a>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navdata">
             <span class="navbar-toggler-icon"></span>
@@ -38,47 +38,47 @@
             <div class="col-12 col-md-6 col-lg-8">
                 <div class="card">
                     <div class="card-header"><h4>SignUp</h4></div>
-                    <form>
-                        <div class="form-group col-md-6 col-12 col-lg-10">
+                    <form action="login.html">
+                        <div class="form-group col-md-12 col-12 col-lg-10">
                             <label for="username">User Name</label>
-                            <input type="text" class="form-control" placeholder="Enter User Name">
+                            <input type="text" class="form-control" placeholder="Enter User Name" id="userName" name="userName">
 
                         </div>
 
-                        <div class="form-row ml-2">
+                        <div class="form-row ml-2 mr-2">
                             <div class="form-group col-md-6">
 
                                 <label for="firstName">Enter First Name</label>
-                                <input type="text" class="form-control" placeholder="Enter First Name">
+                                <input type="text" class="form-control" placeholder="Enter First Name" id="firstName" name="firstName">
 
 
                             </div>
                             <div class="form-group col-md-6">
 
                                 <label for="lastName">Enter Last Name</label>
-                                <input type="text" class="form-control" placeholder="Enter Last Name">
+                                <input type="text" class="form-control" placeholder="Enter Last Name" id="lastName" name="lastName">
 
 
                             </div>
                         </div>
 
-                        <div class="form-row ml-2">
+                        <div class="form-row ml-2 mr-2">
                             <div class="form-group col-md-6">
 
                                 <label for="firstName">Enter Password</label>
-                                <input type="password" class="form-control" placeholder="Enter Password">
+                                <input type="password" class="form-control" placeholder="Enter Password" id="password" name="password">
 
 
                             </div>
                             <div class="form-group col-md-6">
 
                                 <label for="lastName">Confirm Password</label>
-                                <input type="password" class="form-control" placeholder="Enter Confirm Password">
+                                <input type="password" class="form-control" placeholder="Enter Confirm Password" id="confirmPassword" name="confirmPassword">
 
 
                             </div>
                         </div>
-                        <button class="btn btn-danger ml-2 mb-2">SignUp</button>
+                        <input type="submit" class="btn btn-danger ml-2 mb-2" value="SignUp">
                     </form>
                 </div>
             </div>

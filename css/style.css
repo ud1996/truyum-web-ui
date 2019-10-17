@@ -5,8 +5,43 @@
     width:100%;
     bottom: 0;
     left:0;
+    
 }
 
 .liclass{
     display: inline;
+}
+
+.sizeImg{
+    font-size: 20px;
+}
+
+.colourImg{
+    color: blue;
+    vertical-align: bottom;
+}
+
+.freedel{
+    size: 50px;
+    
+}
+
+ 
+.search{
+
+    
+    background-image: url("https://images.unsplash.com/photo-1467453678174-768ec283a940?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1328&q=80");
+}
+
+.navbarCss{
+
+    vertical-align: bottom;
+}
+
+.material-icons{
+    vertical-align: bottom;
+}
+
+.mainc{
+    font-size: 8px;
 }
